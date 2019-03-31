@@ -1,5 +1,6 @@
 package com.iav.basketball.activity;
 
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.os.Bundle;
@@ -33,6 +34,7 @@ public class QuizActivity extends AppCompatActivity {
 
     private WebView wv;
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

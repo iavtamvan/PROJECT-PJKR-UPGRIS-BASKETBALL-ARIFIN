@@ -45,7 +45,7 @@ public class DetailActivity extends AppCompatActivity {
         type = getIntent().getStringExtra(Config.TYPE);
         judul = getIntent().getStringExtra(Config.JUDUL);
 
-        Toast.makeText(this, "" + image_url, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "" + image_url, Toast.LENGTH_SHORT).show();
         getSupportActionBar().setTitle(judul);
         Glide.with(DetailActivity.this).load(image_url).into(ivDetail);
         RequestManager requestManager = null;

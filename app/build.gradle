@@ -39,6 +39,10 @@ dependencies {
     implementation 'com.android.support:design:28.0.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
 
+    implementation 'com.ogaclejapan.smarttablayout:library:1.7.0@aar'
+
+    //Optional: see how to use the utility.
+    implementation 'com.ogaclejapan.smarttablayout:utils-v4:1.7.0@aar'
 
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
