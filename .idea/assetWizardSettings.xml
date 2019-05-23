@@ -74,6 +74,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="scalingPercent" value="99" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -86,8 +87,7 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="foregroundAssetType" value="CLIP_ART" />
-                                      <entry key="foregroundImage" value="D:\Downloads\MY GYMNASTIC.png" />
+                                      <entry key="foregroundImage" value="D:\Downloads\barong.png" />
                                     </map>
                                   </option>
                                 </PersistentState>

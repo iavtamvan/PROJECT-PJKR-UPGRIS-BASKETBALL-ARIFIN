@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Basket Ball</string>
+    <string name="app_name">Basket Ball Learning (BBL)</string>
     <string name="title_activity_detail">Basket Ball</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"

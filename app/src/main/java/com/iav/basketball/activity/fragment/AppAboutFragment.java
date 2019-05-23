@@ -6,7 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.iav.basketball.R;
 
 
@@ -15,6 +17,8 @@ import com.iav.basketball.R;
  */
 public class AppAboutFragment extends Fragment {
 
+
+    private ImageView ivLogo;
 
     public AppAboutFragment() {
         // Required empty public constructor
@@ -25,7 +29,14 @@ public class AppAboutFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_about_app, container, false);
+        View view =  inflater.inflate(R.layout.fragment_about_app, container, false);
+        initView(view);
+
+        Glide.with(getActivity()).load(R.drawable.barongpng).into(ivLogo);
+        return view;
     }
 
+    private void initView(View view) {
+        ivLogo = view.findViewById(R.id.ivLogo);
+    }
 }
